@@ -1,0 +1,41 @@
+body{
+	min-width: 480px;
+}
+
+.centered {
+    text-align: center;
+    font-size: 0;
+}
+.centered > div {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 13px;
+}
+
+.card-curso{
+	background:-webkit-linear-gradient(rgba(33, 150, 243, 0.55), rgba(8, 82, 146, 0.68)), 
+	url(http://www.empregoerenda.com.br/images/noticias/coaching-empresas-noticia-emprego-renda.jpg);
+	background:-o-linear-gradient(rgba(33, 150, 243, 0.55), rgba(8, 82, 146, 0.68)), 
+	url(http://www.empregoerenda.com.br/images/noticias/coaching-empresas-noticia-emprego-renda.jpg);
+	background:linear-gradient(rgba(33, 150, 243, 0.55), rgba(8, 82, 146, 0.68)), 
+	url(http://www.empregoerenda.com.br/images/noticias/coaching-empresas-noticia-emprego-renda.jpg);
+}
+
+span.help-block {
+    position: static !important;
+}
+
+h3 small{
+	color:white;
+}
+
+.form-mayus input{
+	text-transform: uppercase;
+}
+.form-mayus .tile-text{
+	text-transform: uppercase;
+}
+section:first-child {
+  padding-top: 24px;
+}
